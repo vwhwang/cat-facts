@@ -19,7 +19,7 @@ class CatViewModel : ViewModel() {
        fetchCatFact()
     }
 
-    private fun fetchCatFact() {
+    fun fetchCatFact() {
         viewModelScope.launch {
             val response = try {
                 RetrofitInstance.api.fetchBlog()
