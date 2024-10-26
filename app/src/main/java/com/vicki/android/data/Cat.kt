@@ -1,4 +1,4 @@
-package com.vicki.android.ui.theme
+package com.vicki.android.data
 
 data class Cat(
     val fact: String = "",

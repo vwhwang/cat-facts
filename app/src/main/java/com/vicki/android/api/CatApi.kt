@@ -1,6 +1,6 @@
 package com.vicki.android.api
 
-import com.vicki.android.ui.theme.Cat
+import com.vicki.android.data.Cat
 import retrofit2.Response
 import retrofit2.http.GET
 
